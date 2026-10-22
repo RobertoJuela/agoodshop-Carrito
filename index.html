@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>AgoodShop</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>AgoodShop</h1>
+        </header>
+        <main>
+            <table>
+                <thead>
+                    <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Pr. Unidad</th>
+                    <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="listado"></tbody>
+            </table>
+
+            <aside id="resumen">
+                <h2>Total</h2>
+                <div id="lineas"></div>
+                <p class="total-final">TOTAL<span id="total">0€</span></p>
+            </aside>
+        </main>
+
+        <script src="carrito.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

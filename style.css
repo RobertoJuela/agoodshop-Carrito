@@ -1,0 +1,59 @@
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+table {
+  flex: 2;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 1rem;
+}
+
+th {
+  border-bottom: 2px solid #ddd;
+  font-size: 0.9rem;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+input[type="number"] {
+  width: 3rem;
+  text-align: center;
+}
+
+#resumen {
+  flex: 1;
+  background: #e0e0e0;
+  padding: 1rem 1.5rem;
+}
+
+#lineas p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+}
+
+.total-final {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #999;
+  padding-top: 1rem;
+}
